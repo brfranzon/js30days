@@ -1,0 +1,66 @@
+html {
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+  }
+
+  body{
+      margin: 0;
+      font-size: 2rm;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .clock{
+    width: 15rem;
+    height: 15rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    
+    }
+
+    .clock-face{
+        position: relative;
+        width: 100%;
+        height: 100%;
+     }
+
+    .hand-second{
+        width: 50%;
+        height: 1px;
+        background: rgb(255, 0, 0);
+        position: absolute;
+        top: 50%;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+        }
+
+    .hand-minutes{
+        width: 50%;
+        height: 1px;
+        background: rgb(238, 255, 0);
+        position: absolute;
+        top: 50%;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+     }
+
+    .hand-hour{
+        width: 50%;
+        height: 1px;
+        background: black;
+        position: absolute;
+        top: 50%;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+      }
+
